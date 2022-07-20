@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
 
+/* first-style */
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -30,7 +32,7 @@ h1 {
     width: 800px;
     height: 310px;
     padding: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 30px;
     left: 140px;
 }
@@ -38,8 +40,6 @@ h1 {
 .part-1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    border-radius: 10px;
 }
 
 .details {
