@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,700&display=swap');
 
-/* first-style */
-
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -51,7 +49,6 @@ h1 {
     width: 120px;
 }
 
-/* second-style */
 .first-border {
     border: 2px solid black;
     width: 250px;
@@ -61,6 +58,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -73,9 +71,9 @@ h1 {
 }
 
 .one {
-    border: 2px solid white;
-    background-color: white;
-    color: black;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
     border-radius: 5px;
     font-weight: 100;
     display: flex;
@@ -95,19 +93,14 @@ h1 {
 }
 
 .three {
-    border: 2px solid red;
-    background-color: red;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
     border-radius: 5px;
     font-weight: 100;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-
 }
 
 .part-2 {
@@ -127,12 +120,9 @@ a {
 }
 
 .blog-name {
-    border: 1px solid black;
-    border-radius: 5px;
-    background-color: white;
     font-weight: 100;
     font-size: 18px;
-    width: 100px;
+    width: 300px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -140,15 +130,19 @@ a {
 
 .blog-title {
     width: 300px;
-    height: 50px;
+    height: 10px;
     margin-bottom: 1%;
     font-weight: 600;
     font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .blog .thumbnail img {
-    width: 270px;
-    height: 150px;
+    width: 125px;
+    height: 100px;
+    border: 2px solid white;
 }
 
 /* footer */
