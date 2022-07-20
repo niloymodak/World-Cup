@@ -27,7 +27,7 @@ h1 {
 
 .container {
     background-color: black;
-    width: 800px;
+    width: 1095px;
     height: 310px;
     padding: 30px;
     border-radius: 10px;
@@ -58,8 +58,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .second-border {
@@ -107,7 +106,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 
 }
@@ -117,6 +116,8 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .blog-name {
@@ -134,9 +135,6 @@ h1 {
     margin-bottom: 1%;
     font-weight: 600;
     font-size: 15px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
 }
 
 .blog .thumbnail img {
